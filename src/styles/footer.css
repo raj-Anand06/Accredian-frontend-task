@@ -1,0 +1,172 @@
+.footer-container {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #111;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.footer-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.footer-logo-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-text {
+  font-size: 30px;
+  margin: 0 0 5px 0;
+  text-transform: lowercase;
+}
+
+.footer-tagline {
+  font-size: 12px;
+  color: #ccc;
+  margin: 8px;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.schedule-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+
+.schedule-btn:hover {
+  background-color: #0056b3;
+}
+
+.footer-subtitle {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.footer-col:last-child {
+  margin-right: 0;
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col.contact ul li {
+  margin-bottom: 0;
+}
+
+.footer-col ul li span {
+  color: #999;
+  margin-left: 10px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.footer-link a:hover {
+  color: #007bff;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+      width: 90%;
+  }
+
+  .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .footer-top-right {
+      align-items: flex-start;
+      margin-top: 20px;
+  }
+
+  .footer-main {
+      flex-direction: column;
+  }
+
+  .footer-col {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}

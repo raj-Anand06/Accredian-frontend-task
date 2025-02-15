@@ -1,0 +1,14 @@
+.details-dialog .MuiDialogTitle-root {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.details-dialog-content {
+  padding: 20px;
+}
+
+.details-dialog-actions {
+  padding: 10px 20px;
+  justify-content: flex-end;
+}
